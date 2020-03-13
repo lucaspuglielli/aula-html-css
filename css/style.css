@@ -22,11 +22,20 @@ border: 1px solid rgb(226, 226, 226);
     background-repeat: no-repeat;
     background-position: center;
 }
-ul{
+#imgAbout{
+    background-image: url(../img/jane2.jpg);
+    width: 490px;
+    height: 490px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+.ulnav{
     padding: 0px;
     text-align: center;
 }
-li{
+.linav{
     display: inline-block;
     margin: 0 10px;
 }
@@ -42,4 +51,33 @@ a{
 }
 a:visited{
     color: black;
+}
+#mainabout{
+    text-align: center;
+    margin: 70px 0;
+}
+#mainmusic{
+    margin: 70px 0 70px 200px;
+}
+#floatleft{
+float: left;
+}
+#mapa{
+float: right;
+margin: 40px 0;
+}
+#container{
+    overflow: hidden;
+    width: 800px;
+    margin: 0 auto;
+}
+#mensagem{
+    resize: none;
+    width: 100%
+}
+#email{
+    width: 100%
+}
+#nome{
+    width: 100%
 }
